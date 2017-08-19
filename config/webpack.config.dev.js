@@ -88,7 +88,7 @@ module.exports = {
     // if there are any conflicts. This matches Node resolution mechanism.
     // https://github.com/facebookincubator/create-react-app/issues/253
 
-    // cc-react-scripts also adds support for absolute paths with paths.appSrc
+    // frontend-scripts also adds support for absolute paths with paths.appSrc
     // eg: import SomeFile from '../../components/SomeFile' becomes
     // import SomeFile from 'components/SomeFile'
     // where SomeFile is at /src/components/SomeFile.js
@@ -182,7 +182,7 @@ module.exports = {
                             }
                           }
                         }
-                      ],require.resolve('babel-plugin-transform-decorators')],
+                      ],require.resolve('babel-plugin-transform-decorators-legacy')],
               // @remove-on-eject-end
               // This is a feature of `babel-loader` for webpack (not Babel itself).
               // It enables caching results in ./node_modules/.cache/babel-loader/

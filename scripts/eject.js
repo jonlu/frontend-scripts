@@ -215,7 +215,7 @@ inquirer
     const appBabel = {
       presets: ['react-app'],
       plugins: [
-        "transform-decorators"
+        "transform-decorators-legacy"
       ],
       env: {
         development: {

@@ -24,6 +24,6 @@ module.exports = babelJest.createTransformer({
         }
       }
     ],
-    require.resolve('babel-plugin-transform-decorators-legacy')],
+    require.resolve('babel-plugin-transform-decorators-legacy-legacy')],
   babelrc: false,
 });

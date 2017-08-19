@@ -31,7 +31,7 @@ When you’re ready to deploy to production, create a minified bundle with `npm 
 - Absolute path for everything under the `src` folder
   - Reduces the extra `../../` for imports
   - eg: `import SomeComponent from 'components/SomeComponent'`
-- [Babel Transform Decorators](https://www.npmjs.com/package/babel-plugin-transform-decorators)
+- [Babel Transform Decorators](https://www.npmjs.com/package/babel-plugin-transform-decorators-legacy)
 - [Babel React CSS Modules (configured for scss)](https://github.com/gajus/babel-plugin-react-css-modules)
 
 ### Bundled eye-candy:
