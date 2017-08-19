@@ -1,6 +1,6 @@
 {
   "name": "frontend-scripts",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Front End configuration and scripts for Create React App.",
   "repository": "jonlu/frontend-scripts",
   "license": "BSD-3-Clause",
