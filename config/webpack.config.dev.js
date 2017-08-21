@@ -17,7 +17,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
 const InterpolateHtmlPlugin = require('react-dev-utils/InterpolateHtmlPlugin');
 const WatchMissingNodeModulesPlugin = require('react-dev-utils/WatchMissingNodeModulesPlugin');
-const eslintFormatter = require('react-dev-utils/eslintFormatter');
 const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const DashboardPlugin = require('webpack-dashboard/plugin');
 const getClientEnvironment = require('./env');
@@ -142,6 +141,7 @@ module.exports = {
         use: [
           {
             loader: require.resolve('eslint-loader'),
+            options: { emitWarning: true },
           },
         ],
         include: paths.appSrc,
