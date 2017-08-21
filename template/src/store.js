@@ -15,7 +15,6 @@ export function configureStore (initialState = {}) {
   const store = createStore(rootReducer, initialState, compose(...enhancers))
 
   // For hot reloading of react components
-  // Also for debugging
   if (process.env.NODE_ENV !== 'production' && module.hot) {
     module.hot.accept('./reducers', () => {
       const nextReducer = require('./reducers').default

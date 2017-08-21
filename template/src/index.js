@@ -4,9 +4,6 @@ import ApplicationNode from './ApplicationNode'
 import registerServiceWorker from './services/registerServiceWorker'
 import {configureStore} from './store'
 
-// NOTE: React Router v4 uses seperate imports for dom and native now!
-// It also utomatically creates a history object for you.
-
 let initialState = {}
 
 if (window.__INITIAL_STATE__) {

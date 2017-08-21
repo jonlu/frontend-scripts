@@ -5,9 +5,7 @@ import {Router} from 'react-router-dom'
 import history from 'services/history'
 import DevTools from './components/DevTools'
 import Routes from './rootRoutes'
-
-// NOTE: React Router v4 uses seperate imports for dom and native now!
-// It also automatically creates a history object for you.
+import './styles/global.scss'
 
 const ApplicationNode = ({store}) => {
   return (
